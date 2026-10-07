@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Александр Волков — психолог онлайн и в Москве</title>
+  <meta name="description" content="Индивидуальные консультации, работа с парами и семьями. Помогаю разобраться с тревогой, кризисами в отношениях и потерей опоры — бережно и без осуждения. Запись в течение 24 часов.">
+  <meta name="theme-color" content="#050505">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Александр Волков — психолог онлайн и в Москве">
+  <meta property="og:description" content="Станет легче. Начнём сегодня. Индивидуальные консультации, работа с парами и семьями.">
+  <meta property="og:image" content="assets/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500&family=Inter:wght@400;500;600&subset=cyrillic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="js/config.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+<!-- Иконки (Lucide, 1.5px) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></symbol>
+  <symbol id="i-zap" viewBox="0 0 24 24"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></symbol>
+  <symbol id="i-send" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><path d="M17.5 6.5h.01"/></symbol>
+  <symbol id="i-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></symbol>
+  <symbol id="i-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M12 5v14"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+</svg>
+
+<div class="page" id="top">
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="header">
+    <div class="header__bar">
+      <a href="#top" class="logo"><span class="logo__mark" aria-hidden="true"></span>Александр Волков</a>
+
+      <nav class="menu" aria-label="Основное меню">
+        <a href="#top" class="is-active">Главная</a>
+        <a href="#about">Подход</a>
+        <a href="#work">С чем работаю</a>
+        <a href="#tariffs">Тарифы</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#faq">Вопросы</a>
+      </nav>
+      <a href="#tariffs" class="btn btn--primary header__cta">Записаться</a>
+
+      <button class="burger" type="button" aria-label="Меню" aria-expanded="false" aria-controls="mobile-menu">
+        <svg class="icon i-open"><use href="#i-menu"/></svg>
+        <svg class="icon i-close"><use href="#i-close"/></svg>
+      </button>
+    </div>
+
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Мобильное меню" hidden>
+      <a href="#top" class="is-active">Главная</a>
+      <a href="#about">Подход</a>
+      <a href="#work">С чем работаю</a>
+      <a href="#tariffs">Тарифы</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#faq">Вопросы</a>
+      <a href="#tariffs" class="btn btn--primary">Записаться</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero-section" aria-label="Главный экран">
+      <div class="hero">
+        <div class="jelly jelly--hero" data-jelly aria-hidden="true"></div>
+        <div class="hero__fade" aria-hidden="true"></div>
+
+        <div class="hero__top">
+          <div class="hero__intro">
+            <div class="badge">Психолог · онлайн и в Москве</div>
+            <h1 class="hero__title">
+              <span class="hero__title-line1"><span>Станет легче.</span><span class="hero__title-note">12 лет<br>практики</span></span>
+              <span class="hero__title-line">Начнём</span>
+              <span class="hero__title-accent">сегодня</span>
+            </h1>
+            <p class="body hero__lead">Индивидуальные консультации, работа с парами и семьями. Помогаю разобраться с тревогой, кризисами в отношениях и потерей опоры — бережно и без осуждения.</p>
+            <div class="hero__actions">
+              <a href="#process" class="btn btn--secondary">Как я работаю</a>
+              <a href="#tariffs" class="btn btn--primary">Выбрать консультацию
+                <svg class="icon"><use href="#i-arrow"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="hero__tags" data-tags aria-hidden="true">
+            <span class="is-active">ТРЕВОГА</span>
+            <span>ОТНОШЕНИЯ</span>
+            <span>КРИЗИСЫ</span>
+          </div>
+        </div>
+
+        <div class="hero__bottom">
+          <div class="stats">
+            <div class="stat stat--wide glass">
+              <span class="small">Клиентов</span>
+              <div class="stat__row">
+                <span class="num" data-count="2400" data-suffix="+">2 400+</span>
+                <div class="avatars" aria-hidden="true"><span>М</span><span>Д</span><span>Е</span></div>
+              </div>
+            </div>
+            <div class="stat glass">
+              <span class="small">Часов практики</span>
+              <span class="num" data-count="9000" data-suffix="+">9 000+</span>
+            </div>
+            <div class="stat glass">
+              <span class="small">По рекомендации</span>
+              <span class="num" data-count="87" data-suffix="%">87%</span>
+            </div>
+          </div>
+
+          <div class="hero__aside">
+            <div class="socials">
+              <a href="#tg" data-link="telegram" class="social" aria-label="Telegram"><svg class="icon"><use href="#i-send"/></svg></a>
+              <a href="#vk" data-link="vk" class="social" aria-label="VK">VK</a>
+              <a href="#ig" data-link="instagram" class="social" aria-label="Instagram"><svg class="icon"><use href="#i-instagram"/></svg></a>
+              <span class="socials__label">Соцсети</span>
+            </div>
+            <div class="hero__cards">
+              <div class="mini-card glass">
+                <div class="photo photo--duotone">
+                  <img src="assets/img/portrait-mini.jpg" alt="Александр Волков" onerror="this.remove()">
+                  <span class="photo__ph">Фото</span>
+                </div>
+                <div class="mini-card__text">
+                  <span class="mini-card__num">12 лет</span>
+                  <span class="small">в частной практике</span>
+                </div>
+              </div>
+              <div class="urgent-card glass">
+                <div class="stat__row">
+                  <span class="num">24 ч</span>
+                  <svg class="icon"><use href="#i-zap"/></svg>
+                </div>
+                <span class="small">ближайшая консультация в тарифе Приоритет</span>
+                <a href="#tariffs" class="btn btn--primary btn--block">Записаться срочно</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== МАНИФЕСТ ===================== -->
+    <section class="container" id="about" aria-label="Обо мне">
+      <div class="manifest reveal" data-reveal="0">
+        <div class="manifest__label"><div class="badge">Обо мне</div></div>
+        <p class="manifest__text">Я помогаю людям <span class="accent">вернуть опору</span> и выстроить отношения, в которых <span class="accent">спокойно и тепло</span> — с собой, с близкими, с миром.</p>
+      </div>
+    </section>
+
+    <!-- ===================== BENTO «ДОВЕРИЕ» ===================== -->
+    <section class="container container--sm" aria-label="Почему мне доверяют">
+      <div class="bento">
+        <div class="card card--hover bento__main reveal" data-reveal="0">
+          <div class="badge badge--tint">Принимаю новых клиентов</div>
+          <h2 class="bento__title">Онлайн по всему миру · офлайн в Москве</h2>
+          <a href="#tariffs" class="btn btn--primary">Записаться</a>
+          <div class="photo photo--duotone bento__office">
+            <img src="assets/img/office.jpg" alt="Кабинет психолога" loading="lazy" onerror="this.remove()">
+            <span class="photo__ph">Фото кабинета — тёмный интерьер</span>
+          </div>
+        </div>
+
+        <div class="card card--hover bento__stat reveal" data-reveal="1">
+          <p class="body">Работаю с женщинами, мужчинами, парами и семьями — <span class="text">2 400+ человек за 12 лет</span></p>
+          <div class="bento__stat-row">
+            <div class="bento__big">
+              <span class="bento__big-num" data-count="12">12</span>
+              <span class="small">лет<br>практики</span>
+            </div>
+            <div class="stars" role="img" aria-label="5 из 5">
+              <svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <figure class="card card--hover bento__quote reveal" data-reveal="2" style="margin:0">
+          <div class="photo bento__portrait">
+            <img src="assets/img/portrait.jpg" alt="Портрет Александра Волкова" loading="lazy" onerror="this.remove()">
+            <span class="photo__ph">Портрет Александра</span>
+          </div>
+          <div class="bento__quote-body">
+            <blockquote class="bento__quote-text" style="margin:0"><span class="accent">«</span>Не нужно ждать, пока станет совсем плохо. Прийти можно, просто когда тяжело.<span class="accent">»</span></blockquote>
+            <figcaption class="small">Александр Волков <span class="sep">|</span> психолог</figcaption>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===================== ОБРАЗОВАНИЕ (бегущая строка) ===================== -->
+    <section class="container container--sm" aria-label="Образование и практика">
+      <div class="marquee">
+        <span class="small marquee__label">Образование<br>и практика</span>
+        <div class="marquee__viewport">
+          <ul class="marquee__track">
+            <li>Диплом психолога</li>
+            <li>КПТ</li>
+            <li>Системная семейная терапия</li>
+            <li>Гештальт-подход</li>
+            <li>Супервизия</li>
+            <li>Член профессиональной ассоциации</li>
+            <li aria-hidden="true">Диплом психолога</li>
+            <li aria-hidden="true">КПТ</li>
+            <li aria-hidden="true">Системная семейная терапия</li>
+            <li aria-hidden="true">Гештальт-подход</li>
+            <li aria-hidden="true">Супервизия</li>
+            <li aria-hidden="true">Член профессиональной ассоциации</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== С ЧЕМ РАБОТАЮ ===================== -->
+    <section class="frame-section" id="work" aria-labelledby="work-title">
+      <div class="panel">
+        <div class="services">
+          <div class="services__intro reveal" data-reveal="0">
+            <div class="badge">С чем работаю</div>
+            <h2 class="h2" id="work-title">С чем ко мне<br><span class="accent">приходят</span></h2>
+            <p class="body">Неважно, какой у вас запрос и в каком вы состоянии. Начнём с того, что болит сейчас.</p>
+          </div>
+          <div class="services__grid">
+            <article class="card card--hover service reveal" data-reveal="0">
+              <div class="service__head"><h3 class="h3">Тревога и стресс</h3><span class="service__num">(01)</span></div>
+              <p class="service__desc">Панические атаки, бессонница, постоянное напряжение.</p>
+              <ul class="tags"><li>тревога</li><li>панические атаки</li><li>выгорание</li></ul>
+            </article>
+            <article class="card card--hover service reveal" data-reveal="1">
+              <div class="service__head"><h3 class="h3">Отношения и пары</h3><span class="service__num">(02)</span></div>
+              <p class="service__desc">Конфликты, ревность, охлаждение, решение «остаться или уйти».</p>
+              <ul class="tags"><li>кризис пары</li><li>ревность</li><li>доверие</li></ul>
+            </article>
+            <article class="card card--hover service reveal" data-reveal="2">
+              <div class="service__head"><h3 class="h3">Семья и дети</h3><span class="service__num">(03)</span></div>
+              <p class="service__desc">Детско-родительские отношения, подростковый возраст, семейные конфликты.</p>
+              <ul class="tags"><li>родители</li><li>подростки</li><li>семья</li></ul>
+            </article>
+            <article class="card card--hover service reveal" data-reveal="3">
+              <div class="service__head"><h3 class="h3">Кризисы и утраты</h3><span class="service__num">(04)</span></div>
+              <p class="service__desc">Развод, расставание, потеря близкого, переезд.</p>
+              <ul class="tags"><li>развод</li><li>горе</li><li>перемены</li></ul>
+            </article>
+            <article class="card card--hover service reveal" data-reveal="4">
+              <div class="service__head"><h3 class="h3">Самооценка</h3><span class="service__num">(05)</span></div>
+              <p class="service__desc">Неуверенность, синдром самозванца, вечная критика себя.</p>
+              <ul class="tags"><li>уверенность</li><li>границы</li><li>ценность</li></ul>
+            </article>
+            <article class="card card--hover service reveal" data-reveal="5">
+              <div class="service__head"><h3 class="h3">Поиск себя</h3><span class="service__num">(06)</span></div>
+              <p class="service__desc">Апатия, потеря смысла, выбор пути.</p>
+              <ul class="tags"><li>смысл</li><li>мотивация</li><li>выбор</li></ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ПРОЦЕСС ===================== -->
+    <section class="container" id="process" aria-labelledby="process-title">
+      <div class="section-head reveal" data-reveal="0">
+        <div class="badge">Процесс</div>
+        <h2 class="h2" id="process-title">Четыре шага<br><span class="muted">до первой встречи</span></h2>
+      </div>
+      <ol class="steps">
+        <li class="card card--hover step reveal" data-reveal="0">
+          <span class="step__num" aria-hidden="true">01</span>
+          <h3 class="h3">Выбираете тариф</h3>
+          <p>Стандарт или Приоритет.</p>
+        </li>
+        <li class="card card--hover step reveal" data-reveal="1">
+          <span class="step__num" aria-hidden="true">02</span>
+          <h3 class="h3">Оплачиваете онлайн</h3>
+          <p>Картой или СБП, чек приходит на почту.</p>
+        </li>
+        <li class="card card--hover step reveal" data-reveal="2">
+          <span class="step__num" aria-hidden="true">03</span>
+          <h3 class="h3">Получаете время</h3>
+          <p>В течение 24 ч (Приоритет) или в ближайшие 7 дней (Стандарт).</p>
+        </li>
+        <li class="card card--hover step reveal" data-reveal="3">
+          <span class="step__num" aria-hidden="true">04</span>
+          <h3 class="h3">Встречаемся</h3>
+          <p>60 минут онлайн или в кабинете. Конфиденциально.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===================== ТАРИФЫ ===================== -->
+    <section class="container" id="tariffs" aria-labelledby="tariffs-title">
+      <div class="tariffs__head reveal" data-reveal="0">
+        <div class="badge">Тарифы</div>
+        <h2 class="h2" id="tariffs-title">Одна консультация.<br><span class="accent">Разная скорость.</span></h2>
+        <p class="body">Качество одинаковое. Вы выбираете, как быстро нужна помощь.</p>
+      </div>
+
+      <div class="tariffs">
+        <!-- Стандарт -->
+        <article class="card card--hover tariff reveal" data-reveal="0">
+          <div class="tariff__head">
+            <h3 class="h3">Стандарт</h3>
+            <span class="tariff__term">в течение ~7 дней (очередь)</span>
+          </div>
+          <div class="tariff__price-wrap">
+            <div class="tariff__price"><span class="tariff__price-num">4 990</span><span class="tariff__price-cur">₽</span></div>
+            <span class="small tariff__caption">Запись в общую очередь</span>
+          </div>
+          <div class="tariff__session">60 минут, онлайн или в Москве</div>
+          <ul class="features">
+            <li><svg class="icon"><use href="#i-check"/></svg>Индивидуальная, парная или семейная сессия</li>
+            <li><svg class="icon"><use href="#i-check"/></svg>Видеосвязь или кабинет</li>
+            <li><svg class="icon"><use href="#i-check"/></svg>Полная конфиденциальность</li>
+            <li><svg class="icon"><use href="#i-check"/></svg>Подтверждение времени в течение дня</li>
+          </ul>
+          <a href="#pay-standard" data-link="payStandard" class="btn btn--secondary btn--block">Записаться в очередь</a>
+        </article>
+
+        <!-- Приоритет -->
+        <article class="card card--hover tariff tariff--priority reveal" data-reveal="1">
+          <span class="tariff__badge">Рекомендуем</span>
+          <div class="tariff__head">
+            <h3 class="h3">Приоритет</h3>
+            <span class="tariff__term"><svg class="icon"><use href="#i-zap"/></svg>гарантированно в течение 24 часов</span>
+          </div>
+          <div class="tariff__price-wrap">
+            <div class="tariff__price"><span class="tariff__price-num">9 990</span><span class="tariff__price-cur">₽</span></div>
+            <span class="small tariff__caption">Без очереди. Когда нельзя ждать</span>
+          </div>
+          <div class="tariff__session">60 минут, онлайн или в Москве</div>
+          <ul class="features">
+            <li><svg class="icon"><use href="#i-check"/></svg>Всё из «Стандарта»</li>
+            <li><svg class="icon"><use href="#i-check"/></svg>Консультация в течение 24 ч — гарантия</li>
+            <li><svg class="icon"><use href="#i-check"/></svg>Выбор удобного времени в первую очередь</li>
+            <li><svg class="icon"><use href="#i-check"/></svg>Если не уложимся в 24 ч — вернём разницу</li>
+          </ul>
+          <a href="#pay-priority" data-link="payPriority" class="btn btn--primary btn--block">Нужна помощь срочно</a>
+        </article>
+      </div>
+      <p class="small tariffs__note">Оплата картой или СБП · Отмена и перенос бесплатно за 24 ч до встречи</p>
+    </section>
+
+    <!-- ===================== ОТЗЫВЫ ===================== -->
+    <section class="reviews-section" id="reviews" aria-labelledby="reviews-title">
+      <div class="container">
+        <div class="reviews__head reveal" data-reveal="0">
+          <div class="section-head">
+            <div class="badge">Отзывы</div>
+            <h2 class="h2" id="reviews-title">Что говорят<br><span class="muted">клиенты</span></h2>
+          </div>
+          <div class="reviews__nav">
+            <button type="button" class="round-btn round-btn--secondary" data-reviews="prev" aria-label="Назад"><svg class="icon"><use href="#i-left"/></svg></button>
+            <button type="button" class="round-btn round-btn--primary" data-reviews="next" aria-label="Вперёд"><svg class="icon"><use href="#i-right"/></svg></button>
+          </div>
+        </div>
+      </div>
+
+      <ul class="reviews" data-reviews-track>
+        <li class="card review">
+          <div class="review__author"><span class="review__initials review__initials--tint" aria-hidden="true">МК</span><div class="review__meta"><span class="review__name">Марина К.</span><span class="review__type">тревога</span></div></div>
+          <p class="review__text">Пришла с паническими атаками, из-за которых не могла ездить в метро. Через два месяца впервые за год спокойно доехала до работы. Ни одного осуждающего слова — только поддержка.</p>
+          <div class="stars stars--sm" role="img" aria-label="5 из 5"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+        </li>
+        <li class="card review">
+          <div class="review__author"><span class="review__initials" aria-hidden="true">ДС</span><div class="review__meta"><span class="review__name">Дмитрий и Анна С.</span><span class="review__type">пара</span></div></div>
+          <p class="review__text">Были на грани развода и почти не разговаривали. Александр помог услышать друг друга, а не только спорить. До сих пор пользуемся тем, чему научились на сессиях.</p>
+          <div class="stars stars--sm" role="img" aria-label="5 из 5"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+        </li>
+        <li class="card review">
+          <div class="review__author"><span class="review__initials review__initials--tint" aria-hidden="true">ЕВ</span><div class="review__meta"><span class="review__name">Елена В.</span><span class="review__type">семья</span></div></div>
+          <p class="review__text">Сын-подросток закрылся, любой разговор заканчивался криком. Сейчас мы снова ужинаем вместе и разговариваем. Очень бережный и внимательный специалист.</p>
+          <div class="stars stars--sm" role="img" aria-label="5 из 5"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+        </li>
+        <li class="card review">
+          <div class="review__author"><span class="review__initials" aria-hidden="true">ИЛ</span><div class="review__meta"><span class="review__name">Игорь Л.</span><span class="review__type">выгорание</span></div></div>
+          <p class="review__text">Думал, что просто устал, а оказалось — выгорание. Взял «Приоритет», встретились на следующий день. Именно это было нужно в тот момент.</p>
+          <div class="stars stars--sm" role="img" aria-label="5 из 5"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+        </li>
+        <li class="card review">
+          <div class="review__author"><span class="review__initials review__initials--tint" aria-hidden="true">ОН</span><div class="review__meta"><span class="review__name">Ольга Н.</span><span class="review__type">утрата</span></div></div>
+          <p class="review__text">После потери мамы не могла собраться. На сессиях можно было просто говорить и не держаться. Стало легче дышать — по-настоящему.</p>
+          <div class="stars stars--sm" role="img" aria-label="5 из 5"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===================== FAQ ===================== -->
+    <section class="container" id="faq" aria-labelledby="faq-title">
+      <div class="faq">
+        <div class="faq__intro reveal" data-reveal="0">
+          <div class="section-head">
+            <div class="badge">Вопросы</div>
+            <h2 class="h2" id="faq-title">Частые<br><span class="muted">вопросы</span></h2>
+          </div>
+        </div>
+        <div class="faq__list" data-faq>
+          <div class="faq__item">
+            <button type="button" class="faq__q" aria-expanded="true" aria-controls="faq-a0" id="faq-q0">Чем отличаются тарифы?<span class="faq__icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span></button>
+            <p class="faq__a" id="faq-a0" role="region" aria-labelledby="faq-q0">Только скоростью. Сессия, время и подход одинаковые.</p>
+          </div>
+          <div class="faq__item">
+            <button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a1" id="faq-q1">Как проходит онлайн-консультация?<span class="faq__icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span></button>
+            <p class="faq__a" id="faq-a1" role="region" aria-labelledby="faq-q1" hidden>По видеосвязи, ссылку пришлём после оплаты. Нужны наушники и тихое место.</p>
+          </div>
+          <div class="faq__item">
+            <button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a2" id="faq-q2">Это конфиденциально?<span class="faq__icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span></button>
+            <p class="faq__a" id="faq-a2" role="region" aria-labelledby="faq-q2" hidden>Да. Всё, что вы рассказываете, остаётся между нами.</p>
+          </div>
+          <div class="faq__item">
+            <button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a3" id="faq-q3">Можно прийти вдвоём или всей семьёй?<span class="faq__icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span></button>
+            <p class="faq__a" id="faq-a3" role="region" aria-labelledby="faq-q3" hidden>Да, выберите любой тариф и укажите формат в заявке.</p>
+          </div>
+          <div class="faq__item">
+            <button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a4" id="faq-q4">Сколько нужно встреч?<span class="faq__icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span></button>
+            <p class="faq__a" id="faq-a4" role="region" aria-labelledby="faq-q4" hidden>Иногда хватает одной, чаще 5–10. Обсудим на первой встрече.</p>
+          </div>
+          <div class="faq__item">
+            <button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a5" id="faq-q5">Можно ли перенести или отменить?<span class="faq__icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span></button>
+            <p class="faq__a" id="faq-a5" role="region" aria-labelledby="faq-q5" hidden>Да, бесплатно за 24 часа до встречи.</p>
+          </div>
+          <div class="faq__item">
+            <button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-a6" id="faq-q6">Что, если мне очень плохо прямо сейчас?<span class="faq__icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span></button>
+            <p class="faq__a" id="faq-a6" role="region" aria-labelledby="faq-q6" hidden>Консультация психолога не заменяет экстренную помощь. При угрозе жизни звоните <a href="tel:112" class="text">112</a>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ФИНАЛЬНЫЙ CTA ===================== -->
+    <section class="frame-section" aria-labelledby="cta-title">
+      <div class="cta reveal" data-reveal="0">
+        <div class="jelly jelly--cta" data-jelly aria-hidden="true"></div>
+        <div class="cta__shade" aria-hidden="true"></div>
+        <h2 class="cta__title" id="cta-title">Сделайте первый шаг.<br><span class="accent">Остальное — вместе.</span></h2>
+        <div class="cta__actions">
+          <a href="#pay-standard" data-link="payStandard" class="btn btn--secondary btn--lg">Стандарт — 4 990 ₽</a>
+          <a href="#pay-priority" data-link="payPriority" class="btn btn--primary btn--lg">Приоритет за 24 ч — 9 990 ₽</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="#top" class="logo"><span class="logo__mark" aria-hidden="true"></span>Александр Волков</a>
+        <span class="footer__caption">Психолог, семейный психотерапевт</span>
+      </div>
+      <div class="footer__col">
+        <span class="footer__col-title">Контакты</span>
+        <a href="#tg" data-link="telegram">Telegram: @volkov_psy</a>
+        <a href="#tel" data-link="phone">+7 (900) 000-00-00</a>
+        <a href="#mail" data-link="email">hello@volkov-psy.ru</a>
+      </div>
+      <div class="footer__col">
+        <span class="footer__col-title">Соцсети</span>
+        <a href="#tg" data-link="telegram">Telegram</a>
+        <a href="#vk" data-link="vk">VK</a>
+        <a href="#ig" data-link="instagram">Instagram*</a>
+      </div>
+      <div class="footer__col">
+        <span class="footer__col-title">Документы</span>
+        <a href="privacy.html">Политика конфиденциальности</a>
+        <a href="offer.html">Договор оферты</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Александр Волков</span>
+      <span>*Instagram принадлежит Meta, признанной экстремистской в РФ</span>
+    </div>
+  </footer>
+
+  <!-- Липкая кнопка на мобильном -->
+  <div class="sticky-cta" data-sticky-cta>
+    <a href="#tariffs" class="btn btn--primary btn--block">Записаться</a>
+  </div>
+
+  <div class="grain" aria-hidden="true"></div>
+</div>
+
+</body>
+</html>

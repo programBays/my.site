@@ -1,0 +1,11 @@
+# Рабочие файлы, не часть сайта
+память/
+*.zip
+CLAUDE.md
+STARTUP-KIT.md
+.claude/
+
+# Системный мусор
+.DS_Store
+Thumbs.db
+desktop.ini
